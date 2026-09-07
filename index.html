@@ -280,7 +280,7 @@
                 total.textContent = formatter.format(septemberTotal);
                 status.textContent = 'อัปเดตจาก EasyDonate และสำรองข้อมูลแล้ว';
                 updateDonationProgress(septemberTotal);
-                updateGoals(Number(stats?.allTime));
+                updateGoals(septemberTotal);
             } catch (error) {
                 console.error(error);
                 showGoalError();
