@@ -1,0 +1,6 @@
+.env
+*.tmp
+log.json
+listdonator.json
+listdonatorlog.json
+node_modules/
